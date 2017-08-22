@@ -1,0 +1,26 @@
+{
+  "name": "graphql-primitive",
+  "version": "1.0.0",
+  "description": "GraphQL Primitive Scalar Type",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "prepublish": "npm run build",
+    "test": "NODE_ENV=test jest"
+  },
+  "peerDependencies": {
+    "graphql": "^0.10.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^20.0.3",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0",
+    "jest": "^20.0.4",
+    "regenerator-runtime": "^0.11.0"
+  }
+}
