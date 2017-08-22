@@ -2,7 +2,7 @@
   "name": "graphql-primitive",
   "repository": "https://github.com/srtucker22/graphql-primitive.git",
   "author": "Simon Tucker <srtucker22@gmail.com>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GraphQL Primitive Scalar Type",
   "main": "./dist/index.js",
   "license": "MIT",

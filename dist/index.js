@@ -48,6 +48,16 @@ module.exports = new _graphql.GraphQLScalarType({
     if (!isPrimitive(result)) {
       throw new _error.GraphQLError('Value based primitive not passed to GraphQLPrimitive');
     }
-    return result;
+
+    switch (ast.kind) {
+      case _language.Kind.STRING:
+      case _language.Kind.BOOLEAN:
+        return ast.value;
+      case _language.Kind.INT:
+      case _language.Kind.FLOAT:
+        return parseFloat(ast.value);
+      default:
+        return null;
+    }
   }
 });
