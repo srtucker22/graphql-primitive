@@ -7,7 +7,7 @@
   "scripts": {
     "build": "babel src --presets es2015,stage-2 --out-dir dist",
     "prepublish": "npm run build",
-    "test": "NODE_ENV=test jest"
+    "test": "NODE_ENV=test jest --coverage"
   },
   "peerDependencies": {
     "graphql": "^0.10.5"
