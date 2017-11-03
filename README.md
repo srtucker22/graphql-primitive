@@ -1,4 +1,4 @@
-# graphql-primitive ![Npm version](https://img.shields.io/npm/v/graphql-primitive.svg)
+# graphql-primitive [![Npm version](https://img.shields.io/npm/v/graphql-primitive.svg)](https://www.npmjs.com/package/graphql-primitive)
 
 ## A GraphQL Primitive Scalar Type
 
