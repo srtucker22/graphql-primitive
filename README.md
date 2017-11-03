@@ -1,4 +1,4 @@
-# graphql-primitive [![Npm version](https://img.shields.io/npm/v/graphql-primitive.svg)](https://www.npmjs.com/package/graphql-primitive)
+# graphql-primitive [![Npm version](https://img.shields.io/npm/v/graphql-primitive.svg)](https://www.npmjs.com/package/graphql-primitive) [![Build Status](https://travis-ci.org/srtucker22/graphql-primitive.svg?branch=master)](https://travis-ci.org/srtucker22/graphql-primitive) [![Coverage Status](https://coveralls.io/repos/github/srtucker22/graphql-primitive/badge.svg?branch=master)](https://coveralls.io/github/srtucker22/graphql-primitive?branch=master)
 
 ## A GraphQL Primitive Scalar Type
 
