@@ -8,23 +8,27 @@
 * [Contributing](#contributing)
 * [Licence](#licence)
 
-# Overview
+## Overview
+
 GraphQL Primitive Scalar is a scalar that accepts the following Javascript primitives:
-- String
-- Number
-- Boolean
-- undefined
-- null
+
+* String
+* Number
+* Boolean
+* undefined
+* null
 
 Ever wanted to accept or send multiple primitives in GraphQL? :)
 
-# Installation
-```
+## Installation
+
+```bash
 yarn add graphql-primitive
 ```
 
-# Usage
-```
+## Usage
+
+```js
 import { makeExecutableSchema } from 'graphql-tools';
 import GraphQLPrimitive from 'graphql-primitive';
 
@@ -45,10 +49,12 @@ const resolveFunctions = {
 const jsSchema = makeExecutableSchema({ typeDefs: schemaString, resolvers: resolveFunctions });
 ```
 
-# Contributing
+## Contributing
+
 This project welcomes code contributions, bug reports and feature requests. Please see the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md) if you are interested in contributing.
 
-# License
+## License
+
 MIT License
 
 Copyright (c) 2017 Simon Tucker
