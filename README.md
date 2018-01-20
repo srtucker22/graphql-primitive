@@ -43,7 +43,7 @@ type Query {
 `;
 
 const resolveFunctions = {
-  JSON: GraphQLPrimitive
+  Primitive: GraphQLPrimitive
 };
 
 const jsSchema = makeExecutableSchema({ typeDefs: schemaString, resolvers: resolveFunctions });
