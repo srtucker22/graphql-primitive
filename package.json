@@ -26,6 +26,6 @@
     "eslint-plugin-import": "2.14.0",
     "graphql": "0.13.2",
     "jest": "21.2.1",
-    "regenerator-runtime": "0.12.1"
+    "regenerator-runtime": "0.13.1"
   }
 }
