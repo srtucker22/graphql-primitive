@@ -23,7 +23,7 @@ Ever wanted to accept or send multiple primitives in GraphQL? :)
 ## Installation
 
 ```bash
-yarn add graphql-primitive
+npm i graphql-primitive
 ```
 
 ## Usage
@@ -46,7 +46,10 @@ const resolveFunctions = {
   Primitive: GraphQLPrimitive
 };
 
-const jsSchema = makeExecutableSchema({ typeDefs: schemaString, resolvers: resolveFunctions });
+const jsSchema = makeExecutableSchema({
+  typeDefs: schemaString,
+  resolvers: resolveFunctions
+});
 ```
 
 ## Contributing

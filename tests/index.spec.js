@@ -5,7 +5,7 @@ import GraphQLPrimitive from '../src/index';
 
 describe('GraphQLPrimitive', () => {
   describe('serialize', () => {
-    it('should error when serializing a non-primitive value', (done) => {
+    it('should error when serializing a non-primitive value', () => {
       expect(
         GraphQLPrimitive.serialize.bind(GraphQLPrimitive, 'some string'),
       ).not.toThrow();
@@ -29,13 +29,11 @@ describe('GraphQLPrimitive', () => {
       expect(
         GraphQLPrimitive.serialize.bind(GraphQLPrimitive, {}),
       ).toThrow(TypeError);
-
-      done();
     });
   });
 
   describe('parseValue', () => {
-    it('should error when serializing a non-primitive value', (done) => {
+    it('should error when serializing a non-primitive value', () => {
       expect(
         GraphQLPrimitive.parseValue.bind(GraphQLPrimitive, 'some string'),
       ).not.toThrow();
@@ -59,13 +57,11 @@ describe('GraphQLPrimitive', () => {
       expect(
         GraphQLPrimitive.parseValue.bind(GraphQLPrimitive, {}),
       ).toThrow(TypeError);
-
-      done();
     });
   });
 
   describe('parseLiteral', () => {
-    it('should error when parsing a non-primitive value', (done) => {
+    it('should error when parsing a non-primitive value', () => {
       expect(
         GraphQLPrimitive.parseLiteral.bind(GraphQLPrimitive, {
           kind: Kind.INT,
@@ -106,8 +102,6 @@ describe('GraphQLPrimitive', () => {
           value: {},
         }),
       ).toThrow(GraphQLError);
-
-      done();
     });
   });
 });
