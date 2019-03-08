@@ -63,7 +63,7 @@ module.exports = new _graphql.GraphQLScalarType({
         return parseFloat(ast.value);
 
       default:
-        return null;
+        return undefined;
     }
   }
 });

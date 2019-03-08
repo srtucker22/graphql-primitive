@@ -49,7 +49,7 @@ module.exports = new GraphQLScalarType({
       case Kind.FLOAT:
         return parseFloat(ast.value);
       default:
-        return null;
+        return undefined;
     }
   },
 });
