@@ -65,7 +65,6 @@ describe('GraphQLPrimitive', () => {
   });
 
   describe('parseLiteral', () => {
-
     it('should support parsing literals', (done) => {
       const newSchema = new GraphQLSchema({
         query: new GraphQLObjectType({
@@ -90,7 +89,9 @@ describe('GraphQLPrimitive', () => {
                   type: GraphQLPrimitive,
                 },
               },
-              resolve: (obj, { string, int, float, bool, nil }) => ([
+              resolve: (obj, {
+                string, int, float, bool, nil,
+              }) => ([
                 string,
                 int,
                 float,
