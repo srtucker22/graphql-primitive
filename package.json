@@ -41,6 +41,6 @@
     "eslint-plugin-react": "7.12.4",
     "graphql": "14.1.1",
     "jest": "24.5.0",
-    "regenerator-runtime": "0.13.1"
+    "regenerator-runtime": "0.13.2"
   }
 }
