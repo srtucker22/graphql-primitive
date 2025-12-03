@@ -39,7 +39,7 @@
     "eslint-plugin-import": "2.18.0",
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-react": "7.14.2",
-    "graphql": "14.6.0",
+    "graphql": "14.7.0",
     "jest": "24.8.0",
     "regenerator-runtime": "0.13.2"
   }
